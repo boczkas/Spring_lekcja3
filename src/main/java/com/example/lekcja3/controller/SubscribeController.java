@@ -11,6 +11,9 @@ import java.util.List;
 @CrossOrigin
 public class SubscribeController {
 
+//    Do tej pory sobie wczytywaliśmy, a jak zapisywaliśmy to przez ścieżkę
+//    Trochę by było trudno jakbyśmy chcieli zapisać jakiś wielki obiekt w ten sposób
+//    Odczytuje sie przez GET, zapisuje sie przez POST
     private final SubscribeService subscribeService;
 
     public SubscribeController(SubscribeService subscribeService) {
